@@ -5,11 +5,14 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 import { HeadphoneOff, Headphones } from "lucide-react";
+import h3v from '../assets/videos/h3_v.mp4';
+import h2v from '../assets/videos/h2_v.mp4';
+import h1v from '../assets/videos/h1_v.mp4';
 
 const videos = [
-    { src: "src/assets/videos/h3_v.mp4", type: "video", instagram: "https://instagram.com/example1" },
-    { src: "src/assets/videos/h2_v.mp4", type: "video", instagram: "https://instagram.com/example2" },
-    { src: "src/assets/videos/h1_v.mp4", type: "video", instagram: "https://instagram.com/example3" },
+    { src: h3v, type: "video", instagram: "https://instagram.com/example1" },
+    { src: h2v, type: "video", instagram: "https://instagram.com/example2" },
+    { src: h1v, type: "video", instagram: "https://instagram.com/example3" },
 ];
 
 export default function VideoSlider() {

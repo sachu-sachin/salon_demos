@@ -4,11 +4,15 @@ import { HeadingText } from "./ui/ServiceUi";
 import { ShineBorder } from "./magicui/shine-border";
 import AnimatedBackground from "./AnimatedBackground";
 import { useState } from "react";
+import sHair from '../assets/s-hair.jpg';
+import sFace from '../assets/s-face.jpg';
+import sBride from '../assets/s-bride.jpg';
+import sGrom from '../assets/s-grom.jpg';
 
 const services = [
     {
         title: "Hair Styling",
-        image: "/src/assets/s-hair.jpg",
+        image: sHair,
         subServices: [
             "Hair Extension",
             "Hair Straightening",
@@ -18,7 +22,7 @@ const services = [
     },
     {
         title: "Facials & Skin Care",
-        image: "/src/assets/s-face.jpg",
+        image: sFace,
         subServices: [
             "Facial Wrinkles",
             "Anti Acne",
@@ -28,8 +32,7 @@ const services = [
     },
     {
         title: "Bridal Makeup",
-        // image: "https://images.jdmagicbox.com/v2/comp/coimbatore/r5/0422px422.x422.141112154042.y5r5/catalogue/neofair-beauty-clinic-coimbatore-aerodrome-coimbatore-beauty-parlours-for-hair-straightening-26pnpblr1r.jpg",
-        image: "/src/assets/s-bride.jpg",
+        image: sBride,
         subServices: [
             "Bridal makeup trial",
             "Wedding day makeup",
@@ -39,7 +42,7 @@ const services = [
     },
     {
         title: "Grooming Services",
-        image: "/src/assets/s-grom.jpg",
+        image: sGrom,
         subServices: [
             "Shaving",
             "Waxing",
